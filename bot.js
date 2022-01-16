@@ -4,9 +4,7 @@ const {
   ApplicationCommandOptionType,
 } = require("discord-api-types/v9");
 
-const TOKEN = "ODgzNTg5NzM5NTYxNzQ2NDUz.YTMJEg.MwslIa9xBN25ah9LX5KzuYBYM5c";
-const CLIENT_ID = "883589739561746453";
-const GUILD_ID = "787875527670497322";
+const { TOKEN, CLIENT_ID, GUILD_ID } = require('./token');
 
 const ALPHABETS = [
   "🇦",
